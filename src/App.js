@@ -1,11 +1,13 @@
 import React from 'react'
 
+import Blog from './components/Blog'
 import Names from './components/Names'
 
 export default function App() {
     return (
         <div>
-            <Names />
+            <Blog title={"Blog Post"} description={"A brief description."} />
+            {/* <Names /> */}
         </div>
     )
 }
